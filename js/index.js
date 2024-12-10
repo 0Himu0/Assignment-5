@@ -76,6 +76,7 @@ donateBtn.addEventListener("click", function () {
 
   historyAllEl.classList.add("hidden");
 });
+
 // History Button Function
 historyBtn.addEventListener("click", function () {
   donateBtn.classList.remove("bg-primary", "text-black");
@@ -101,6 +102,7 @@ document.getElementById("btn-noakhali").addEventListener("click", function (even
   document.getElementById("input-noakhali").value = "";
 });
 
+
 // Feni Donate done 
 document.getElementById("btn-feni").addEventListener("click", function (event) {
   event.preventDefault;
@@ -109,6 +111,7 @@ document.getElementById("btn-feni").addEventListener("click", function (event) {
 
   document.getElementById("input-fani").value = "";
 });
+
 
 // Quota Movement donate done
 document.getElementById("btn-quota").addEventListener("click", function (event) {
@@ -119,8 +122,8 @@ document.getElementById("btn-quota").addEventListener("click", function (event) 
   document.getElementById("input-quota").value = "";
 });
 
-// Blog Button 
 
+// Blog Button 
 const blogBtn = document.getElementById("blog");
 
 blogBtn.addEventListener('click',function(){
